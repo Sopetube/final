@@ -1,0 +1,25 @@
+.wrap{
+    margin: 0 auto;
+    width: 60vw;
+}
+.content{
+    margin-top: 30px;
+    background-color: rgba(220, 220, 220, 0.076);
+    padding: 15px;
+    border-radius: 16px;
+}
+.contactbox p{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.contactbox a{
+    color: var(--accentBrown);
+    text-decoration: none;
+}
+.contactbox img{
+    display: inline;
+    margin-left: 10px;
+    width: 36px;
+    max-width: 100%;
+}
