@@ -1,15 +1,8 @@
-// Створити сторінку з контактною інформацією;
-
 import style from './Contacts.module.css'
 import linkedin from './assets/linkedin.png';
 import instagram from './assets/instagram.webp';
 import telegram from './assets/Telegram.webp';
 
-// const logos = {
-//     instagram: '',
-//     telegram: '',
-//     linkedin:'',
-// }
 function Contacts(){
     return (
         <div className='content-wrapper'>

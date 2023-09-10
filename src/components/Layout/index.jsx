@@ -9,7 +9,6 @@ import AboutWorkPlacesPage from '../../pages/AboutWorkPlacesPage';
 import ContactsPage from '../../pages/ContactsPage';
 import Footer from '../Footer';
 
-
 function Layout() {
   const mobileNav = useRef(null);
   const brg = useRef(null);

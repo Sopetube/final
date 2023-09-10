@@ -1,4 +1,3 @@
-import style from './AboutProjects.module.css'
 import React, { useState } from 'react'; 
     
 const lessonsData = [
@@ -64,7 +63,7 @@ function AboutProjects(){
                             <>
                                 <p>{item.text}</p>
                                 {item.images.map(url => (
-                                    <img src={url} key={url}/>
+                                    <img src={url} alt='hw' key={url}/>
                                 ))} 
                             </>
                         )}

@@ -1,9 +1,3 @@
-// Створити сторінку з детальним описом проекту, що містить зображення
-// проекту, опис функціоналу та використовуваних технологій;
-
-import style from './Skills.module.css'
-
-
 function Skills(){
     return (
         <div className='content-wrapper'>

@@ -9,7 +9,7 @@ function AboutWorkPlaces(){
             <div className='content'>
                 <article className={style.place}>
                     <h3>HostAdvice</h3>
-                    <img src={hostadvice}></img>
+                    <img src={hostadvice} alt='logo'></img>
                     <hr/>
                     <p>
                     <b>Web Operations</b><br/>
