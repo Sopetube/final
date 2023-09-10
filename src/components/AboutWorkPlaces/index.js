@@ -4,9 +4,9 @@ import hostadvice from './assets/hostadvice.png';
 
 function AboutWorkPlaces(){
     return (
-        <div className={style.wrap}>
+        <div className='content-wrapper'>
             <h2>WorkPlaces</h2>
-            <div className={style.content}>
+            <div className='content'>
                 <article className={style.place}>
                     <h3>HostAdvice</h3>
                     <img src={hostadvice}></img>

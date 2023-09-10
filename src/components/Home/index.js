@@ -6,7 +6,7 @@ import style from './Home.module.css'
 function Home() {
 
     return (
-            <div className={style.homewrap}>
+            <div className='content-wrapper'>
                 <h2>Список проектів та їх короткий опис</h2>
                 <div className={style.list}>
                     <article>

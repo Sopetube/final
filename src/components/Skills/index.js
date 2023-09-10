@@ -6,9 +6,9 @@ import style from './Skills.module.css'
 
 function Skills(){
     return (
-        <div className={style.wrap}>
+        <div className='content-wrapper'>
             <h2>Здобуті навички</h2>
-            <div className={style.content}>
+            <div className='content'>
                 <article>
                     <h4>Навички з Basic курсу</h4>
                     <p><b>HTML (HyperText Markup Language):</b></p>

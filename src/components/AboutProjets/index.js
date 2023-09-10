@@ -1,6 +1,5 @@
 import style from './AboutProjects.module.css'
 import React, { useState } from 'react'; 
-import tweet from './assets/tweet.png'
     
 const lessonsData = [
     {   
@@ -52,9 +51,9 @@ function AboutProjects(){
     };
 
     return (
-        <div className={style.wrap}>
+        <div className='content-wrapper'>
             <h2>Детальний опис проекту:</h2>
-            <div className={style.content}>
+            <div className='content'>
                 {lessonsData.map(item => (
                     <article 
                         key={item.id}

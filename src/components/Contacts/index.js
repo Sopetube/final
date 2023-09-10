@@ -12,9 +12,9 @@ import telegram from './assets/Telegram.webp';
 // }
 function Contacts(){
     return (
-        <div className={style.wrap}>
+        <div className='content-wrapper'>
             <h2>Contacts</h2>
-            <div className={style.content}>
+            <div className='content'>
                 <article className={style.contactbox}>
                     <p>
                         <a href='https://www.linkedin.com/in/vlastyslav/' target="_blank" rel="noreferrer" >

@@ -20,7 +20,8 @@ body{
   max-width: 1470px;
   padding: 16px;
   padding-top: 32px;
-  margin-inline: auto;
+  margin: 0 auto;
+  width: 100%;
 }
 
 h2{
@@ -45,4 +46,13 @@ article{
 hr{
   margin: 10px 30px;
 }
-
+.content-wrapper{
+  margin: 0 auto;
+  width: min(100%, 900px);
+}
+.content{
+  margin-top: 30px;
+  background-color: rgba(220, 220, 220, 0.076);
+  padding: 15px;
+  border-radius: 16px;
+}
