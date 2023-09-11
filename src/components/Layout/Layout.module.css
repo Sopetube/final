@@ -111,6 +111,4 @@ main{
 nav a:hover{
     color: var(--accentYellow);
   }
-li{
-  list-style: none;
-}
+
