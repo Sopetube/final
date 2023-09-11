@@ -38,6 +38,11 @@ article{
   border-radius: 16px;
   margin-block: 20px;
 }
+article img{
+  margin: 0 auto;
+  max-width: 60%;
+  display: block;
+}
 @media screen and (max-width: 768px){
   article p{
     font-size: 12px;
