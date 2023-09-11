@@ -9,7 +9,6 @@ main{
 }
 .desktopnav, .mobilenav{
   width: 100%;
-  background-color: var(--accentGray);
   height: var(--navHeight);
 }
 

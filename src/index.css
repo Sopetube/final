@@ -13,7 +13,11 @@
 }
 
 body{
-  background-color: rgba(25, 25, 25, 0.861);
+  /* background-color: rgba(25, 25, 25, 0.861); */
+  background-image: url('https://images.unsplash.com/photo-1555952494-efd681c7e3f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZnJvbnQlMjBlbmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+  background-size: cover;
+  background-attachment: fixed;
+  backdrop-filter: blur(7px);
 }
 
 .content_container{
@@ -32,7 +36,7 @@ h2{
 }
 article{
   line-height: 25px;
-  background-color: rgba(255, 217, 0, 0.851);
+  background-color: rgb(255, 217, 0);
   padding: 16px;
   color: rgb(53, 36, 1);
   border-radius: 16px;
