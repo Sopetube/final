@@ -45,7 +45,10 @@ article img{
 }
 @media screen and (max-width: 768px){
   article p{
-    font-size: 12px;
+    font-size: 14px;
+  }
+  article img{
+    max-width: 90%;
   }
 }
 hr{
@@ -60,4 +63,15 @@ hr{
   background-color: rgba(220, 220, 220, 0.076);
   padding: 15px;
   border-radius: 16px;
+}
+h4{
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+ol{
+  margin-top: 20px;
+}
+li{
+  margin-left: 32px;
 }

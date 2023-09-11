@@ -6,7 +6,7 @@ import telegram from './assets/Telegram.webp';
 function Contacts(){
     return (
         <div className='content-wrapper'>
-            <h2>Contacts</h2>
+            <h2>Контакти</h2>
             <div className='content'>
                 <article className={style.contactbox}>
                     <p>
